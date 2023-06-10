@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class FirstComponentComponent {
   title = 'First component';
   description = 'This is the first component of the app';
-  public users : any  [] = [{name: 'Jefte', age: 20}, {name: 'Oswaldo', age: 19}];
+  public users : any  [] = [{name: 'Jefte', age: 20}, {name: 'Oswaldo', age: 19}, {name: 'Diego', age: 19}];
   
 }
