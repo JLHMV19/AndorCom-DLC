@@ -1,4 +1,4 @@
-<p>Login</p>
+<p></p>
 <div class="login-box">
 <form [formGroup]="loginForm" class="login-form">
     <input class="login-input" formControlName="user" type="text" placeholder="username">
@@ -6,5 +6,7 @@
     <input class="login-input" formControlName="pwd" type="text" placeholder="password">
     </form>
   </div>
-  <div class="login-div"><Button type="submit" class="login-buttom" (click)="login()">Login</Button></div>
-<a routerLink="forgotPassword">Forgot password?</a>
+  <div class="login-box"><Button type="submit" class="login-buttom" (click)="login()">Login</Button>
+  <div><a style="padding-left: 20px;" routerLink="forgot-password">Forgot password?</a></div>
+  </div>
+  
