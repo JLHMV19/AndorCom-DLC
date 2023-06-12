@@ -9,6 +9,7 @@ import { BarrioscomponentComponent } from './barrioscomponent/barrioscomponent.c
 import { LoginPageComponent } from './components/login-page/login-page.component';
 import { RegisterPageComponent } from './components/register-page/register-page.component';
 import { StartPageComponent } from './components/start-page/start-page.component';
+import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { StartPageComponent } from './components/start-page/start-page.component
     BarrioscomponentComponent,
     LoginPageComponent,
     RegisterPageComponent,
-    StartPageComponent
+    StartPageComponent,
+    ForgotPasswordComponent
     
   ],
   imports: [
