@@ -1,0 +1,10 @@
+<p></p>
+<div class="login-div">
+<form [formGroup]="loginForm" class="login-form">
+    <input class="login-input" formControlName="user" type="text" placeholder="username">
+    <br>
+    <input class="login-input" formControlName="pwd" type="text" placeholder="password">
+    </form>
+  </div>
+  <div class="login-div"><Button type="submit" class="login-buttom" (click)="login()">Login</Button></div>
+<a routerLink="forgotPassword">Forgot password?</a>
